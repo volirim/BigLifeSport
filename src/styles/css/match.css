@@ -1,0 +1,113 @@
+.pageContent__block {
+	padding: 0;
+}
+
+.main{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.pageContent__MatchName {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 121px 27px 80px;
+	width: 65%;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	transform: rotate(-0.11deg);
+}
+
+.pageContent__League {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+	color: #000000;
+	align-self: flex-start;
+}
+
+.LeagueLogo {
+	width: 80px;
+	height: 80px;
+}
+
+.pageContent__League__Text {
+	margin-left: 59px;
+}
+
+.pageContent__Teams {
+	margin-top: 29px;
+	display: flex;
+	align-items: space-between;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: #000000;
+}
+
+.enemy {
+	display: flex;
+	flex-direction: column;
+}
+
+.flag {
+	width: 120px;
+	height: 120px;
+	align-self: center;
+}
+
+.pageContent__TimeContainer {
+	font-size: 64px;
+	margin: 12px 188px;
+	align-self: flex-start;
+}
+
+.TeamFirst-title, .TeamSecond-title {
+	align-self: center;
+	margin-top: 47px;
+}
+
+.pageContent__MatchInfo {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	flex-grow: 1;
+	margin-left: 20px;
+}
+
+.pageContent__InfoTitle {
+	margin-top: 29px;
+	align-self: center;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: #000000;
+}
+
+.PageContent__date {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.PageContent__date1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.PageContent__date1__text {
+	margin-left: 10px;
+}
+
+.PageContent__date__descr {
+	margin-right: 17px;
+}

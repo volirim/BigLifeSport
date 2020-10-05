@@ -1,0 +1,29 @@
+.show_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 260px;
+	height: 47px;
+	background: #0C1526;
+	border-radius: 43px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+	transition: 0.3s all;
+	border: none;
+}
+
+.show_btn:hover {
+	color: #fff;
+	background-color: #DF0000;
+	text-decoration: none;
+}
+
+.show_btn__text {
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #FFFFFF;
+}

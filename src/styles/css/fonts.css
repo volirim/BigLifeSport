@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Aero Matics Stencil;
+    src: url(../../static/fonts/AeroMaticsStencil.ttf)
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../../static/fonts/Roboto-Medium.ttf);
+    src: url(../../static/fonts/Roboto-Regular.ttf);
+}

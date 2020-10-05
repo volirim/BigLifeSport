@@ -1,0 +1,67 @@
+.container {
+	max-width: 1000px
+}
+
+.pageContent__block {
+	margin-top: 327px;
+	max-height: 950px;
+	min-height: 950px;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Registration {
+	margin-top: 41px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	color: #000000;
+}
+
+.LoginInput {
+    margin-top: 90px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	color: #000000;
+}
+
+.Second {
+    margin-top: 20px;
+}
+
+.Third {
+    margin-top: 20px;
+}   
+
+.Fourth {
+    margin-top: 20px;
+}
+
+ 
+.InputField {
+	width: 550px;
+	height: 60px;
+	left: 687px;
+	top: 937px;
+	background: #E9E9E9;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 33px;
+	color: #000000;
+}
+
+.show_btn {
+	margin: 0 auto;
+    margin-top: 50px;
+}
+.show_btn:active {
+    border: oldlace;
+}

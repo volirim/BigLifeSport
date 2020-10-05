@@ -1,0 +1,380 @@
+.pageContent__block {
+	display: flex;
+}
+
+.pageContent__League {
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+}
+
+.pageContent__League__Title {
+	display: flex;
+	align-content: center;
+	margin-left: 88px;
+	margin-top: 28px;
+}
+
+.PageContent__League__Title__icon {
+	width: 76px;
+	height: 76px;
+	
+}
+
+.PageContent__League__Title__Name {
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: #000000;
+	align-self: center;
+	margin-left: 59px;
+}
+
+
+
+.pageContent__League__slider {
+	margin-top: 18px;
+	margin-left: 25px;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: #000000;
+	display: flex;
+	flex-wrap: nowrap;
+	height: 70px;
+	overflow-x: scroll;
+	align-items: center;
+}
+
+.pageContent__League__slider__item {
+	margin-left: 20px;
+	color: #000000;
+	flex: 0 0 auto;
+}
+
+.pageContent__League__slider__item:nth-child(1) {
+	margin-left: 10px;
+}
+
+
+.pageContent__League__slider__item:hover {
+	text-decoration: none;
+	color: #000000;
+	background-color: rgba(107, 205, 156, 0.22)
+}
+
+.pageContent__League__slider::-webkit-scrollbar {
+    width: 20px;
+}
+ 
+.pageContent__League__slider::-webkit-scrollbar-track {
+    background: rgba(12, 21, 38, 0.48);
+    border-radius: 10px;
+}
+
+.pageContent__League__slider::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #0C1526;
+}
+
+
+
+.pageContent__LeagueInfo {
+	margin-left: 70px;
+	margin-top: 50px;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: #000000;
+}
+
+.pageContent__LeagueInfo__MatchDate {
+	display: flex;
+}
+
+.pageContent__LeagueInfo__Date {
+	margin-left: 10px;
+}
+
+.pageContent__LeagueInfo__Month {
+	margin-left: 10px;
+}
+
+.pageContent__LeagueInfo__line {
+	width: 90%;
+	margin-left: 28px;
+	margin-top: 3px;
+	content: "";
+	height: 1px;
+	background: #000000;
+	align-self: center;
+}
+
+.pageContent__LeagueInfo__teams {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 42px;
+	color: #000000;
+	transition: 0.3s all;
+}
+
+.pageContent__LeagueInfo__teams:hover {
+	text-decoration: none;
+	color: #000000;
+	background-color: gray;
+	border-radius: 30px;
+}
+
+.pageContent__LeagueInfo__teams__enemy {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.pageContent__LeagueInfo__teams__CountryFlagFirst {
+	margin-left: 30px;
+}
+
+.pageContent__LeagueInfo__teams__CountryFlagSecond {
+	margin-right: 30px;
+}
+
+.pageContent__Table {
+	margin-left: 5%;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.pageContent__Table__Title {
+	display: flex;
+	align-items: center;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	color: #000000;
+}
+
+.pageContent__Table__TitleIcon {
+	width: 80px;
+	height: 80px;
+}
+
+.pageContent__Table__TitleText {
+	margin-left: 69px;
+}
+
+.pageContent__Table__SliderHeader {
+	width: 86%;
+	display: flex;
+	align-items: center;
+	background: rgba(107, 205, 156, 0.22);
+	height: 43px;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+.pageContent__Table__SliderHeader__League {
+	display: flex;
+	align-items: center;
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #000000;
+	width: 70%;
+}
+
+.pageContent__Table__SliderHeader__LeagueLogo {
+	width: 38px;
+	height: 38px;
+	margin-left: 3%;
+}
+
+.pageContent__Table__SliderHeader__LeagueText {
+	width: 67%;
+	text-align: center;
+}
+
+.pageContent__Table__SliderHeader__Text {
+	display: flex;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+	width: 30%;
+}
+
+.pageContent__Table__SliderHeader__TextItem {
+	width: 20%;
+	text-align: center;
+}
+
+.pageContent__Table__Slider {
+	width: 90%;
+	overflow-y: scroll;
+	height: 258px;
+}
+
+.pageContent__Table__Slider::-webkit-scrollbar {
+    width: 20px;
+}
+ 
+.pageContent__Table__Slider::-webkit-scrollbar-track {
+    background: rgba(12, 21, 38, 0.48);
+    border-radius: 10px;
+}
+
+.pageContent__Table__Slider::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #0C1526;
+}
+
+.pageContent__Table__SliderTeams {
+	display: flex;
+	flex-direction: column;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst {
+	display: flex;
+	align-items: center;
+	height: 43px;
+	background-color: C4C4C4;
+	border-radius: 15px;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst__Number {
+	width: 7%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst__Country {
+	display: flex;
+	align-items: center;
+	width: 63%;
+	box-sizing: border-box;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst__CountryFlag {
+	height: 40px;
+	margin-right: 16px;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst__CountryName {
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #000000;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst__Numbers {
+	display: flex;
+	align-items: center;
+	width: 30%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #000000;
+	margin-left: 7px;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst__NumbersNumber{
+	width: 20%;
+	text-align: center;
+}
+
+.pageContent__Table__SliderTeams__TeamFirst__NumbersLast {
+	font-weight: 700;
+}
+
+
+.pageContent__Table__SliderTeams__TeamSecond {
+	display: flex;
+	align-items: center;
+	height: 43px;
+	background-color: EDE7E7;
+	border-radius: 15px;
+}
+
+.pageContent__Table__SliderTeams__TeamSecond__Number {
+	text-align: center;
+	width: 7%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.pageContent__Table__SliderTeams__TeamSecond__Country {
+	display: flex;
+	align-items: center;
+	width: 63%;
+	box-sizing: border-box;
+}
+
+.pageContent__Table__SliderTeams__TeamSecond__CountryFlag {
+	height: 40px;
+	margin-right: 16px;
+}
+
+.pageContent__Table__SliderTeams__TeamSecond__CountryName {
+	font-family: Aero Matics Stencil;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: #000000;
+}
+
+.pageContent__Table__SliderTeams__TeamSecond__Numbers {
+	display: flex;
+	align-items: center;
+	width: 30%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #000000;
+	margin-left: 7px;
+}
+
+.pageContent__Table__SliderTeams__TeamSecond__NumbersNumber{
+	width: 20%;
+	text-align: center;
+}
+
+.pageContent__Table__SliderTeams__TeamSecond__NumbersLast {
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
